@@ -1,0 +1,17 @@
+{
+  "name": "indy",
+  "version": "1.0.0",
+  "description": "discover all the artifacts!",
+  "main": "lib/indy.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test"
+  },
+  "author": "Tom Gallacher <tomgallacher23@gmail.com>",
+  "license": "Artistic-2.0",
+  "dependencies": {
+    "async": "^0.9.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1"
+  }
+}
