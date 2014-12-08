@@ -1,10 +1,10 @@
 {
   "name": "indy",
   "version": "1.0.0",
-  "description": "discover all the artifacts!",
-  "main": "lib/indy.js",
+  "description": "Continuously poll your node.js/io.js and time eventloop delay, process info, memory info, etc.",
+  "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha test"
+    "test": "_mocha test"
   },
   "author": "Tom Gallacher <tomgallacher23@gmail.com>",
   "license": "Artistic-2.0",
