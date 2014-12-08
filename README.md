@@ -28,7 +28,7 @@ indy.hat();
 
 ## Example output from the default dispatcher
 
-```
+```json5
 {
   "gccount": 0, // delta of gc counts between each capture
   "memrss": 18083840, // bytes
