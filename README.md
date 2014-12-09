@@ -26,6 +26,13 @@ indy.hat();
 
 ```
 
+The default dispatcher will log the example output using console.log as an example. A statsd version of this is available at [tomgco/indy-statsd](http://github.com/tomgco/indy-statsd) to use, or to base off of your own metrics sink hole.
+
+```javascript
+var StatsdIndy = require('indy-statsd');
+indy.whip({ dispatcher: new StatsdIndy() });
+```
+
 ## Example output from the default dispatcher
 
 ```json5
