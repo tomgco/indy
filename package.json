@@ -1,6 +1,6 @@
 {
   "name": "indy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Continuously poll your node.js/io.js and time eventloop delay, process info, memory info, etc.",
   "main": "index.js",
   "scripts": {
